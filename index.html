@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Interior Design Generator</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="card">
+    <h1>AI Interior Designer</h1>
+    <p class="subtitle">Turn text into realistic interior concepts</p>
+
+    <div class="features">
+      <span>⚡ Instant</span>
+      <span>🎨 Realistic</span>
+      <span>🏠 Customizable</span>
+    </div>
+
+    <input
+      id="prompt"
+      type="text"
+      placeholder="Modern living room, warm lighting, wooden floor"
+    />
+
+    <button id="generateBtn">Generate Design</button>
+
+    <div class="image-box" id="imageBox">
+      <img id="result" alt="Generated interior design" />
+      <a id="downloadBtn" download="interior-design.png">Download Image</a>
+    </div>
+  </div>
+
+  <!-- Link JS -->
+  <script src="script.js"></script>
+</body>
+</html>
